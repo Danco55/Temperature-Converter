@@ -1,28 +1,24 @@
 
-
 body {
-  margin: 0;
-  background: linear-gradient(to right bottom, lightblue, red);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: monospace;
-  color: slategrey;
-
+margin: 0;
+background: linear-gradient(red, blue);
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;;
+font-family: monospace;
+color: rgb(105, 51, 51);
+  
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(180, 144, 144, 0.3);
   padding: 20px;
-  box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  box-shadow: 10px 10px 13px rgba(66, 8, 8, 0.3);
+  border-radius: 12px;
   width: 85%;
   max-width: 450px;
   min-width: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .heading {
@@ -31,29 +27,21 @@ body {
 
 .temp-container {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .input {
-  width: 200px;
+  width: 220px;
   font-family: monospace;
   padding: 5px;
   float: right;
-  outline: none;
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
-  color: rgb(6, 55, 6);
+  background: rgba(163, 130, 130, 0.3);
+  color: rgb(18, 51, 57);
   font-size: 18px;
 }
 
 .input::placeholder {
-  color: darkgreen;
-}
-
-
-h1:hover {
-  color: blue;
-
+  color: rgb(57, 7, 7);
 }
