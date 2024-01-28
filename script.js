@@ -24,4 +24,4 @@ function computeTemp(event) {
       default:
         break;
   }
-}
+};
