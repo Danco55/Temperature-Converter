@@ -5,6 +5,9 @@ const kelvinEl = document.getElementById("kelvin");
 
 
 
+
+
+
 function computeTemp(event) {
   const currentValue = +event.target.value;
 
